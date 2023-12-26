@@ -1,7 +1,7 @@
-package loggerTest
+package main
 
-import "fmt"
+import "log"
 
-func LogErrorTest(err error) {
-	fmt.Sprintf("There was an unexpected error: %s", err.Error())
+func main() {
+	log.Println("Using publish-module-test library")
 }
