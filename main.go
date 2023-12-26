@@ -1,4 +1,4 @@
-package publish_module_test
+package loggerTest
 
 import "fmt"
 
